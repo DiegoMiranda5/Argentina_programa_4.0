@@ -56,6 +56,3 @@ def cifrado_atbash(frase):
     return fraseCifrada
             
 doctest.testmod()
-frase = input("Ingre una frase a cifrar -> ")
-
-print(cifrado_atbash(frase))
